@@ -1,0 +1,34 @@
+body{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+    width: 500px;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    padding: 60px;
+}
+
+.inp{
+    text-align: left;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border-style: solid;
+}
+
+.login{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.submit{}
