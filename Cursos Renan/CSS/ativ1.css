@@ -1,0 +1,38 @@
+body{
+    background-color: #b4b4b4;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+table {
+    border-radius: 10px;
+    background-color: #ffffff;
+    border-spacing: 5px;
+    padding: 20px;
+}
+
+th{
+    background-color: #FF8C00 !important;
+    color: white;
+}
+
+td {
+    text-align: center;
+    width: 100px;
+    background-color: #dadada;
+}
+
+tr {
+    line-height: 30px;
+}
+
+.hour {
+    background-color: #CFCFCF;
+}
