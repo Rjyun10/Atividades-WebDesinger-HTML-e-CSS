@@ -1,9 +1,9 @@
 body{
-    background-color: #b4b4b4;
+    background-color: #cecece;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 500;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,6 +16,8 @@ table {
     background-color: #ffffff;
     border-spacing: 5px;
     padding: 20px;
+    width: 700px;
+    height: 700px;
 }
 
 th{
@@ -30,9 +32,9 @@ td {
 }
 
 tr {
-    line-height: 30px;
+    line-height: 20px;
 }
 
 .hour {
-    background-color: #CFCFCF;
+    background-color: #c5c5c5;
 }
