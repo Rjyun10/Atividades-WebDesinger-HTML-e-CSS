@@ -86,7 +86,7 @@ body{
     position: relative;
     float: left;
     text-align: center;
-    background-color: #d0ff00; /*trocar para #efefef*/
+    background-color: #ffffff;
     width: 100%;
     height: 145px;
     margin: 0 auto;
@@ -97,7 +97,7 @@ body{
     margin: 0 auto;
     width: 1024px;
     height: 145px;
-    background-color: #ff009c; /*trocar para #efefef*/
+    background-color: #ffffff;
 }
 
 .menu_box_1{
@@ -105,7 +105,7 @@ body{
     margin: 0 auto;
     width: 1024px;
     height: 85px;
-    background: pink; /*trocar para #efefef*/
+    background: #ffffff;
 }
 
 .menu_box_2{
@@ -113,7 +113,7 @@ body{
     margin: 0 auto;
     width: 1024px;
     height: 60px;
-    background: red; /*trocar para #efefef*/
+    background: #ffffff;
 }
 
 .menu_box_1_logo, .menu_box_1_pesq, .menu_box_1_entre, .menu_box_1_car{
@@ -133,11 +133,14 @@ body{
 }
 
 .menu_box_1_entre{
-    background: #9900ff;
+    background-image: url(../Imagens/avatar.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
 }
 
 .menu_box_1_car{
-    background: #00e1ff;
+    background: #ffffff;
 }
 
 .img_logo2{
@@ -175,5 +178,116 @@ body{
 }
 
 .menu_box_1_pesq form{
-    padding: 26.5px 0;
+    padding: 26px 0;
+}
+
+.link_entre{
+    text-decoration: none;
+    color: #8d8d8d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #ccc;
+    float: left;
+    line-height: 85px;
+    margin-left: 50px;
+    
+}
+
+.box_car{
+    position: relative;
+    margin: 0 auto;
+    float: left;
+    height: 85px;
+    width: 50px;
+    background-image: url("../Imagens/carrinho_de_compras.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+}
+
+.box_car span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #ff009c;
+    padding: 1px 5px;
+    border-radius: 20px;
+    margin-top: 50px;
+    float: left;
+    margin-left: 30px;
+}
+
+.box_texto_car{
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    width: 206px;
+    height: 30px;
+    padding: 27.5px 0;
+    background: #ffffff;
+}
+
+.box_texto_car label{                   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #666;
+    display: block;   
+}
+
+.mn2{
+    color: #131313;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 10px 27.5px;
+    line-height: 30px;
+}
+
+.mn2:hover{
+    background-color: #131313;
+    color: #ff009c;
+    border-radius: 40px;
+}
+
+.frete{
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+    height: 39px;
+    background: #272526;
+    text-align: center;
+}
+
+.banner{
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+    height: 847px;
+    background-image: url(../Imagens/HOMEPAGE-ROTATIVO-ALERTA-ROSA.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.info_2{
+    height: 76px;
+    width: 100%;
+    background: #ff009c;
+    float: left;
+}
+
+.info_box_2{
+    text-align: center;
+}
+
+.info1{
+    text-decoration: none;
+    color: #131313;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 76px;
+    margin: 0 auto;
+    padding: 0px 20px;
 }
